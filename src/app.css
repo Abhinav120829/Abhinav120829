@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Beiruti';
+  src: url('/Fonts/Beiruti.ttf') format('truetype');
+}
+
+:root {
+  font-family: "Beiruti", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111827;
+  color:white;
+  color-scheme: dark light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
